@@ -11,6 +11,7 @@ alpha = fix(asind(7.5/12.5))                                                    
 beta = fix(acosd(7.5/12.5))                                                         % Rotor position angle that provides highest inductance
 L_old=0.044
 
+%Assumption: Core is lossless and no fringing
 
 for xteta=(90 - beta)/2 : 1 : 360+(90 - beta)/2                               %Loop that calculates reluctance, inductance and torque for every single degree 
                                                                                                %(90 - beta)/2 is to shift to align rotor horizontally

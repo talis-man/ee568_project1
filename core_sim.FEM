@@ -3,7 +3,7 @@
 [Precision]   =  1e-008
 [MinAngle]    =  30
 [DoSmartMesh] =  1
-[Depth]       =  20
+[Depth]       =  20.0
 [LengthUnits] =  millimeters
 [ProblemType] =  planar
 [Coordinates] =  cartesian
